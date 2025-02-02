@@ -4,9 +4,10 @@ A Deep Convolutional Generative Adversarial Network (DCGAN) implemented from scr
 
 ---
 
-## Overview
+# Overview
 
-This project implements a DCGAN from scratch within a single Jupyter Notebook. The primary goal is to explore generative modeling techniques by synthesizing images inspired by the popular Pokémon franchise. The notebook includes code to load and process a dataset of over 10,000 Pokémon images.
+This project implements a DCGAN from scratch within a Jupyter Notebook. The primary goal is to explore generative modeling techniques by synthesizing images from the popular Pokémon franchise. The notebook includes code to load and process a dataset of over 10,000 Pokémon images.
+
 ---
 
 ## Features
@@ -20,7 +21,7 @@ This project implements a DCGAN from scratch within a single Jupyter Notebook. T
 
 ## Dataset Details
 
-- **Source:** The dataset comprises of over 10,000 Pokémon images.
+- **Source:** [Dataset](https://www.kaggle.com/datasets/yehongjiang/pokemon-sprites-images?resource=download)
 - **Training:** Only the front facing images of the Pokémon are loaded and used during training.
 - **Batch Size:** A batch size of 32 is employed, resulting in approximately 255 iterations per epoch.
 - **Customization:** You can modify the data loading cell in the notebook to adjust parameters or use a different dataset if desired.
