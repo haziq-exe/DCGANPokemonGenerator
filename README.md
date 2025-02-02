@@ -2,9 +2,13 @@
 
 A Deep Convolutional Generative Adversarial Network (DCGAN) implemented from scratch in Python within a Jupyter Notebook to generate Pokémon-like images. This project demonstrates the use of GANs for image synthesis.
 
+<p align="center">
+  <img src="/SampleOutputs.gif" alt="" width="300"/>
+</p>
+
 ---
 
-# Overview
+## Overview
 
 This project implements a DCGAN from scratch within a Jupyter Notebook. The primary goal is to explore generative modeling techniques by synthesizing images from the popular Pokémon franchise. The notebook includes code to load and process a dataset of over 10,000 Pokémon images.
 
